@@ -1,0 +1,6 @@
+[submodule "schematic/libraries/footprints/teensy.pretty"]
+	path = schematic/libraries/footprints/teensy.pretty
+	url = https://github.com/XenGi/teensy.pretty.git
+[submodule "schematic/libraries/symbols/teensy_library"]
+	path = schematic/libraries/symbols/teensy_library
+	url = https://github.com/XenGi/teensy_library.git
