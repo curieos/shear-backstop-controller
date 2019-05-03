@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/libraries/symbols/teensy_library/teensy.lib)(options "")(descr ""))
+  (lib (name AMIS30542)(type Legacy)(uri ${KIPRJMOD}/libraries/symbols/AMIS30542/AMIS30542.lib)(options "")(descr ""))
 )

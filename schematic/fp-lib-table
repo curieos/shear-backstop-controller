@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name teensy)(type KiCad)(uri ${KIPRJMOD}/libraries/footprints/teensy.pretty)(options "")(descr ""))
+  (lib (name AMIS30542)(type KiCad)(uri ${KIPRJMOD}/libraries/footprints/AMIS30542.pretty)(options "")(descr ""))
 )
