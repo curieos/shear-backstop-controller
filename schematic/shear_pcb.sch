@@ -544,14 +544,14 @@ Wire Wire Line
 	8250 5550 8250 5650
 Wire Wire Line
 	8250 5650 8350 5650
-Text GLabel 7900 4750 0    50   Input ~ 0
+Text GLabel 7600 4750 0    50   Input ~ 0
 END1
-Text GLabel 8250 5750 0    50   Input ~ 0
+Text GLabel 7950 5750 0    50   Input ~ 0
 END2
 Wire Wire Line
-	8250 5750 8350 5750
+	7950 5750 8050 5750
 Wire Wire Line
-	7900 4750 8000 4750
+	7600 4750 7700 4750
 NoConn ~ 8250 3600
 NoConn ~ 8250 3700
 NoConn ~ 8250 3800
@@ -577,4 +577,78 @@ Wire Wire Line
 	4500 4050 4600 4050
 Wire Wire Line
 	4500 3950 4600 3950
+$Comp
+L Device:R_Small R2
+U 1 1 5CD4F19A
+P 8050 5600
+F 0 "R2" H 8109 5646 50  0000 L CNN
+F 1 "4k7" H 8109 5555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 8050 5600 50  0001 C CNN
+F 3 "~" H 8050 5600 50  0001 C CNN
+	1    8050 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5CD50BDB
+P 7700 4600
+F 0 "R1" H 7759 4646 50  0000 L CNN
+F 1 "4k7" H 7759 4555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 7700 4600 50  0001 C CNN
+F 3 "~" H 7700 4600 50  0001 C CNN
+	1    7700 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 5700 8050 5750
+Connection ~ 8050 5750
+Wire Wire Line
+	8050 5750 8350 5750
+Wire Wire Line
+	7700 4700 7700 4750
+Connection ~ 7700 4750
+Wire Wire Line
+	7700 4750 8000 4750
+$Comp
+L power:+3V3 #PWR0118
+U 1 1 5CD62DD2
+P 8050 5450
+F 0 "#PWR0118" H 8050 5300 50  0001 C CNN
+F 1 "+3V3" H 7900 5500 50  0000 C CNN
+F 2 "" H 8050 5450 50  0001 C CNN
+F 3 "" H 8050 5450 50  0001 C CNN
+	1    8050 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0119
+U 1 1 5CD63568
+P 7700 4450
+F 0 "#PWR0119" H 7700 4300 50  0001 C CNN
+F 1 "+3V3" H 7550 4500 50  0000 C CNN
+F 2 "" H 7700 4450 50  0001 C CNN
+F 3 "" H 7700 4450 50  0001 C CNN
+	1    7700 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4450 7700 4500
+Wire Wire Line
+	8050 5450 8050 5500
+Text GLabel 4500 3250 0    50   Input ~ 0
+YM
+Text GLabel 4500 3350 0    50   Input ~ 0
+XP
+Wire Wire Line
+	4600 3350 4500 3350
+Wire Wire Line
+	4500 3250 4600 3250
+Text GLabel 4500 1850 0    50   Input ~ 0
+YP
+Wire Wire Line
+	4600 1850 4500 1850
+Text GLabel 4500 1650 0    50   Input ~ 0
+XM
+Wire Wire Line
+	4500 1650 4600 1650
 $EndSCHEMATC
