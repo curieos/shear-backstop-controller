@@ -1,10 +1,13 @@
-/**
- * @Author: Caroline <caroline>
- * @Date:   2019-05-15T15:36:25-05:00
- * @Email:  caroline@curieos.com
- * @Filename: Motor.cpp
- * @Last modified by:   caroline
- * @Last modified time: 2019-05-15T15:36:42-05:00
+/*
+ * File: Motor.cpp
+ * Project: Shear Backstop Controller
+ * File Created: Monday, 27th May 2019 19:18:21
+ * Author: Caroline (caroline@curieos.com)
+ * -----
+ * Last Modified: Monday, 27th May 2019 20:01:54
+ * Modified By: Caroline (caroline@curieos.com>)
+ * -----
+ * License: MIT License
  */
 
 #include "Motor.h"

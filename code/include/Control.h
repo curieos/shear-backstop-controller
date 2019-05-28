@@ -1,10 +1,13 @@
-/**
- * @Author: Caroline <caroline>
- * @Date:   2019-05-14T14:02:35-05:00
- * @Email:  caroline@curieos.com
- * @Filename: Control.h
- * @Last modified by:   caroline
- * @Last modified time: 2019-05-15T15:36:01-05:00
+/*
+ * File: Control.h
+ * Project: Shear Backstop Controller
+ * File Created: Monday, 27th May 2019 19:59:06
+ * Author: Caroline (caroline@curieos.com)
+ * -----
+ * Last Modified: Monday, 27th May 2019 20:00:42
+ * Modified By: Caroline (caroline@curieos.com>)
+ * -----
+ * License: MIT License
  */
 
 #ifndef CONTROL

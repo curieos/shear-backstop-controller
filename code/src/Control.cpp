@@ -1,10 +1,13 @@
-/**
- * @Author: Caroline <caroline>
- * @Date:   2019-05-14T14:02:19-05:00
- * @Email:  caroline@curieos.com
- * @Filename: Control.cpp
- * @Last modified by:   caroline
- * @Last modified time: 2019-05-15T15:34:58-05:00
+/*
+ * File: Control.cpp
+ * Project: Shear Backstop Controller
+ * File Created: Monday, 27th May 2019 19:18:21
+ * Author: Caroline (caroline@curieos.com)
+ * -----
+ * Last Modified: Monday, 27th May 2019 20:01:31
+ * Modified By: Caroline (caroline@curieos.com>)
+ * -----
+ * License: MIT License
  */
 
  #include "Control.h"

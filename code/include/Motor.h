@@ -1,10 +1,13 @@
-/**
- * @Author: Caroline <caroline>
- * @Date:   2019-05-15T15:28:17-05:00
- * @Email:  caroline@curieos.com
- * @Filename: Motor.h
- * @Last modified by:   caroline
- * @Last modified time: 2019-05-15T15:36:16-05:00
+/*
+ * File: Motor.h
+ * Project: Shear Backstop Controller
+ * File Created: Monday, 27th May 2019 19:18:21
+ * Author: Caroline (caroline@curieos.com)
+ * -----
+ * Last Modified: Monday, 27th May 2019 20:00:57
+ * Modified By: Caroline (caroline@curieos.com>)
+ * -----
+ * License: MIT License
  */
 
 #ifndef MOTOR

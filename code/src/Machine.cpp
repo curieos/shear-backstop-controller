@@ -1,10 +1,13 @@
-/**
- * @Author: Caroline <curieos>
- * @Date:   2019-05-01T21:22:04-05:00
- * @Email:  caroline@curieos.com
- * @Filename: Machine.cpp
- * @Last modified by:   caroline
- * @Last modified time: 2019-05-15T15:50:12-05:00
+/*
+ * File: Machine.cpp
+ * Project: Shear Backstop Controller
+ * File Created: Monday, 27th May 2019 19:18:21
+ * Author: Caroline (caroline@curieos.com)
+ * -----
+ * Last Modified: Monday, 27th May 2019 20:01:41
+ * Modified By: Caroline (caroline@curieos.com>)
+ * -----
+ * License: MIT License
  */
 
 #include "Machine.h"

@@ -1,10 +1,13 @@
-/**
- * @Author: Caroline <curieos>
- * @Date:   2019-05-01T19:05:15-05:00
- * @Email:  caroline@curieos.com
- * @Filename: main.cpp
- * @Last modified by:   caroline
- * @Last modified time: 2019-05-15T15:32:53-05:00
+/*
+ * File: main.cpp
+ * Project: Shear Backstop Controller
+ * File Created: Monday, 27th May 2019 19:18:21
+ * Author: Caroline (caroline@curieos.com)
+ * -----
+ * Last Modified: Monday, 27th May 2019 20:01:49
+ * Modified By: Caroline (caroline@curieos.com>)
+ * -----
+ * License: MIT License
  */
 
 #ifndef UNIT_TEST

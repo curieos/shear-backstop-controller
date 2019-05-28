@@ -1,10 +1,13 @@
-/**
- * @Author: Caroline <caroline>
- * @Date:   2019-05-15T15:25:47-05:00
- * @Email:  caroline@curieos.com
- * @Filename: Config.h
- * @Last modified by:   caroline
- * @Last modified time: 2019-05-15T15:44:25-05:00
+/*
+ * File: Config.h
+ * Project: Shear Backstop Controller
+ * File Created: Monday, 27th May 2019 20:00:14
+ * Author: Caroline (caroline@curieos.com)
+ * -----
+ * Last Modified: Monday, 27th May 2019 20:00:27
+ * Modified By: Caroline (caroline@curieos.com>)
+ * -----
+ * License: MIT License
  */
 
 #ifndef CONFIG
