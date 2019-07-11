@@ -4,20 +4,25 @@
  * File Created: Monday, 27th May 2019 19:59:06
  * Author: Caroline (caroline@curieos.com)
  * -----
- * Last Modified: Monday, 27th May 2019 20:00:42
- * Modified By: Caroline (caroline@curieos.com>)
+ * Last Modified: Wednesday June 12th 2019 17:01:47
+ * Modified By: Caroline
  * -----
  * License: MIT License
  */
 
-#ifndef CONTROL
-#define CONTROL
+#ifndef CONTROL_H
+#define CONTROL_H
 
+#include "LCD.h"
 #include "Config.h"
 
 class Control {
 public:
   Control();
+  void init();
+  
+private:
+  LCD* lcd;
 };
 
 #endif
