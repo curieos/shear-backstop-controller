@@ -4,8 +4,8 @@
  * File Created: Monday, 27th May 2019 19:18:21
  * Author: Caroline (caroline@curieos.com)
  * -----
- * Last Modified: Monday, 27th May 2019 20:01:49
- * Modified By: Caroline (caroline@curieos.com>)
+ * Last Modified: Wednesday June 12th 2019 17:01:29
+ * Modified By: Caroline
  * -----
  * License: MIT License
  */
@@ -23,6 +23,11 @@ Control* controller;
 void setup() {
   shear = new Machine();
   controller = new Control();
+
+  delay(200);
+
+  controller->init();
+  shear->init();
 }
 
 void loop() {
