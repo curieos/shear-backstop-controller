@@ -364,10 +364,10 @@ Wire Wire Line
 	9800 5450 9900 5450
 Text GLabel 6700 4850 2    50   Input ~ 0
 CS3
-Text GLabel 4500 1950 0    50   Input ~ 0
+Text GLabel 4500 2050 0    50   Input ~ 0
 D\C
 Wire Wire Line
-	4500 1950 4600 1950
+	4500 2050 4600 2050
 Wire Wire Line
 	9150 2050 9300 2050
 $Comp
@@ -386,8 +386,8 @@ Wire Wire Line
 Wire Wire Line
 	6700 4850 6600 4850
 Wire Wire Line
-	4500 2050 4600 2050
-Text GLabel 4500 2050 0    50   Input ~ 0
+	4500 2150 4600 2150
+Text GLabel 4500 2150 0    50   Input ~ 0
 CS1
 Wire Wire Line
 	4500 5150 4600 5150
@@ -635,20 +635,20 @@ Wire Wire Line
 	7700 4450 7700 4500
 Wire Wire Line
 	8050 5450 8050 5500
-Text GLabel 4500 3250 0    50   Input ~ 0
+Text GLabel 4500 1850 0    50   Input ~ 0
 YM
-Text GLabel 4500 3350 0    50   Input ~ 0
+Text GLabel 4500 1650 0    50   Input ~ 0
 XP
 Wire Wire Line
-	4600 3350 4500 3350
+	4600 1650 4500 1650
 Wire Wire Line
-	4500 3250 4600 3250
-Text GLabel 4500 1850 0    50   Input ~ 0
+	4500 1850 4600 1850
+Text GLabel 4500 3250 0    50   Input ~ 0
 YP
 Wire Wire Line
-	4600 1850 4500 1850
-Text GLabel 4500 1650 0    50   Input ~ 0
+	4600 3250 4500 3250
+Text GLabel 4500 3350 0    50   Input ~ 0
 XM
 Wire Wire Line
-	4500 1650 4600 1650
+	4500 3350 4600 3350
 $EndSCHEMATC
