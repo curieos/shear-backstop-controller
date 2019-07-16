@@ -4,7 +4,7 @@
  * File Created: Wednesday, 29th May 2019 16:33:39
  * Author: Caroline (caroline@curieos.com)
  * -----
- * Last Modified: Wednesday June 12th 2019 17:01:59
+ * Last Modified: Tuesday, 16th July 2019 6:27:04 pm
  * Modified By: Caroline
  * -----
  * License: MIT License
@@ -16,14 +16,18 @@
 #include <ILI9341_t3.h>
 
 #include "Config.h"
+#include "LCDKey.h"
 
 class LCD {
 public:
     LCD();
     void init();
+    void DrawKeypad();
 
 private:
     ILI9341_t3* lcd;
+    LCDKey* keys[12];
+    LCDKey* enter;
 };
 
 
