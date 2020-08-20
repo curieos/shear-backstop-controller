@@ -1,4 +1,4 @@
-update=Wed 08 May 2019 09:50:58 PM CDT
+update=Thu 20 Aug 2020 06:50:15 PM CDT
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -22,15 +32,15 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.4
-MinViaDiameter=1
-MinViaDrill=0.7
+MinTrackWidth=0.3
+MinViaDiameter=0.4
+MinViaDrill=0.2
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.4
-ViaDiameter1=1
-ViaDrill1=0.7
+TrackWidth1=0.3
+ViaDiameter1=0.5
+ViaDrill1=0.25
 dPairWidth1=0.5
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -227,10 +237,10 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.8
-TrackWidth=0.4
-ViaDiameter=1
-ViaDrill=0.7
+Clearance=0.2
+TrackWidth=0.3
+ViaDiameter=0.5
+ViaDrill=0.25
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.5
@@ -238,10 +248,10 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Motor
-Clearance=0.8
+Clearance=0.2
 TrackWidth=1
-ViaDiameter=1
-ViaDrill=0.7
+ViaDiameter=1.2
+ViaDrill=0.8
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.5
@@ -249,10 +259,10 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=Power
-Clearance=0.8
+Clearance=0.2
 TrackWidth=1
-ViaDiameter=1
-ViaDrill=0.7
+ViaDiameter=1.2
+ViaDrill=0.8
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.5
