@@ -1,4 +1,4 @@
-12530790650823
+17543750726823
 AMIS30542
 AMIS30542
 
@@ -82066,7 +82066,7 @@ Teensy1.0++
 
 0
 51
-50
+51
 teensy
 Teensy2.0
 11
@@ -82086,12 +82086,33 @@ Teensy30_31_32_LC
 
 
 0
-53
-52
+39
+38
 teensy
 Teensy35_36
 
 
 0
-86
-86
+62
+62
+teensy
+Teensy40
+
+
+0
+44
+44
+teensy
+Teensy40_SMT
+
+
+0
+54
+54
+teensy
+Teensy41
+
+
+0
+67
+67
